@@ -9,7 +9,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh './fibonacci.sh 20'
+        sh 'fibonacci.sh 20'
       }
     }
   }
